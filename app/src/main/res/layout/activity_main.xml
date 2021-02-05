@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#00c3ff"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:paddingLeft="86dp"
+            android:paddingRight="0dp"
+            android:text="Parameters"
+            android:textColor="@color/black"></TextView>
+
+        <TextView
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:height="10dp"
+            android:width="10dp"
+
+            android:layout_width="10dp"
+            android:layout_height="10dp">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center">
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="1"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:paddingRight="50dp"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:text="respiration"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/respiration"
+            android:paddingLeft="10dp"
+            android:paddingRight="48dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="2"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="67dp"
+            android:layout_width="wrap_content"
+            android:text="oxygen"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:id="@+id/oxygen"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="3"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="cardiogram"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:id="@+id/cardiogram"
+            android:paddingLeft="65dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="4"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="blood presure"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:paddingLeft="30dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:id="@+id/bloodpresure"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="15dp"
+            android:layout_width="wrap_content"
+            android:text="5"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingLeft="0dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="colestral"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:paddingLeft="65dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:id="@+id/colestral"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:text="6"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:paddingLeft="5dp"
+            android:paddingRight="30dp"
+            android:layout_width="wrap_content"
+            android:text="fat"
+            android:layout_height="wrap_content">
+        </TextView>
+        <TextView
+            android:paddingLeft="79dp"
+            android:paddingRight="0dp"
+            android:layout_width="wrap_content"
+            android:text="0"
+            android:id="@+id/fat"
+            android:layout_height="wrap_content">
+        </TextView>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="26dp"></Space>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:text="Diseases"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#818181"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="left"
+                android:paddingLeft="70dp"
+                android:paddingRight="30dp"
+                android:text="Name"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp"
+                android:text="level"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:paddingLeft="30dp"
+                android:paddingRight="50dp"
+                android:text="Prediction"></TextView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="15dp"
+                android:text="Glucose"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="50dp"
+                android:paddingRight="20dp"
+                android:text="170"></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="49dp"
+                android:paddingRight="40dp"
+                android:text="Diabeties"></TextView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/stress"
+        android:layout_height="wrap_content"
+        android:text="Stressmgmt"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/refresh"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_refresh_24" />
+</LinearLayout>
+
+

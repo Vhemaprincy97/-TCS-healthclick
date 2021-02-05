@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "950847189117",
+    "project_id": "healthclick-607a6",
+    "storage_bucket": "healthclick-607a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950847189117:android:7d5a7795abb754e3bb8114",
+        "android_client_info": {
+          "package_name": "com.example.healthclick"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950847189117-93jhcduev4fc335neh8711s34ips93c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXnVdtgLGQtLw2URmd9rzOEgapy_ORBIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950847189117-93jhcduev4fc335neh8711s34ips93c0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:950847189117:android:0ac0961c2cfddc65bb8114",
+        "android_client_info": {
+          "package_name": "com.example.th"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "950847189117-93jhcduev4fc335neh8711s34ips93c0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAXnVdtgLGQtLw2URmd9rzOEgapy_ORBIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "950847189117-93jhcduev4fc335neh8711s34ips93c0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

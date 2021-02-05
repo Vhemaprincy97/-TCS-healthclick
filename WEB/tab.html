@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        table {
+            width: 100%;
+        }
+        
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 15px;
+            text-align: left;
+        }
+        
+        #t01 tr:nth-child(even) {
+            background-color: #eee;
+        }
+        
+        #t01 tr:nth-child(odd) {
+            background-color: #fff;
+        }
+        
+        #t01 th {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="background-color:DodgerBlue;">Prediction table</h1>
+
+    <!--<table>
+        <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Jill</td>
+            <td>Smith</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+        </tr>
+        <tr>
+            <td>John</td>
+            <td>Doe</td>
+            <td>80</td>
+        </tr>
+    </table>
+    <br>-->
+
+    <table id="t01">
+        <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>BP</th>
+            <th>Sugerlevel</th>
+            <th>Oxygen</th>
+            <th>respiration</th>
+            <th>Hreatrate</th>
+            <th>health</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Smith</td>
+            <td>35</td>
+            <td>120 (Normal)</td>
+            <td>139 (Normal)</td>
+            <td>96 (Normal)</td>
+            <td>20 (Moderate)</td>
+            <td>90 (Normal)</td>
+            <td>good</td>
+
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Doe</td>
+            <td>30</td>
+            <td>129 (Elevated)</td>
+            <td>140 (Prediabeties)</td>
+            <td>92 (Hypoxemia)</td>
+            <td>13 (Normal)</td>
+            <td>90 (Normal)</td>
+            <td>bad</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>hema</td>
+            <td>25</td>
+            <td>129 (Elevated)</td>
+            <td>198 (Diabeties)</td>
+            <td>90 (Hypoxemia)</td>
+            <td>50 (Danger)</td>
+            <td>120 (Danger</td>
+            <td>normal</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>vani</td>
+            <td>40</td>
+            <td>140 (Hyoertension)</td>
+            <td>119 (Normal)</td>
+            <td>98 (Normal)</td>
+            <td>25 (Moderate)</td>
+            <td>88 (Normal)</td>
+            <td>average</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>thriveni</td>
+            <td>55</td>
+            <td>130 (stage1 hypertension)</td>
+            <td>140 (diabeties)</td>
+            <td>89 (Hypoxemia)</td>
+            <td>35 (Danger)</td>
+            <td>54 (Normal)</td>
+            <td>normal</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Smitha</td>
+            <td>32</td>
+            <td>132 (stage1)</td>
+            <td>117 (Normal)</td>
+            <td>97 (Normal)</td>
+            <td>27 (Moderate)</td>
+            <td>76 (Normal)</td>
+            <td>good</td>
+        </tr>
+        <tr>
+            <td>6</td>
+            <td>harika</td>
+            <td>50</td>
+            <td>120 (Normal)</td>
+            <td>102 (Normal)</td>
+            <td>96 (Normal)</td>
+            <td>21 (Moderate)</td>
+            <td>60 (Normal)</td>
+            <td>bad</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>princy</td>
+            <td>32</td>
+            <td>122 (Elevated)</td>
+            <td>138 (Diabeties)</td>
+            <td>96 (Normal)</td>
+            <td>45 (Danger)</td>
+            <td>56 (Normal)</td>
+            <td>average</td>
+        </tr>
+        <tr>
+            <td>8</td>
+            <td>nivass</td>
+            <td>28</td>
+            <td>134 (stage1)</td>
+            <td>120 (Normal)</td>
+            <td>97 (Normal)</td>
+            <td>29 (Moderate)</td>
+            <td>44 (Normal)</td>
+            <td>bad</td>
+        </tr>
+        <tr>
+            <td>9</td>
+            <td>cathalin</td>
+            <td>28</td>
+            <td>125(Elevated)</td>
+            <td>125 (Prediabeties)</td>
+            <td>98 (Normal)</td>
+            <td>27 (Moderate)</td>
+            <td>50 (Normal)</td>
+            <td>bad</td>
+        </tr>
+        <tr>
+            <td>10</td>
+            <td>sweety</td>
+            <td>50</td>
+            <td>138 (stage1)</td>
+            <td>137 (Diabeties)</td>
+            <td>90 (Hypoxemia)</td>
+            <td>19 (Normal)</td>
+            <td>62 (Normal)</td>
+            <td>good</td>
+        </tr>
+        <tr>
+            <td>11</td>
+            <td>Sidharth</td>
+            <td>61</td>
+            <td style="colour:#0000ff">134(Hyper)</td>
+            <td>105 (Normal)</td>
+            <td>98 (Normal)</td>
+            <td>45 (Danger)</td>
+            <td>74 (Normal)</td>
+            <td>good</td>
+        </tr>
+    </table>
+</body>
+
+</html>
